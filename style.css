@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: black;
+    color: white;
+}
+header{
+    margin-top: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 9% ;
+    background-color: transparent;
+    filter: drop-shadow(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 3rem;
+    color: #d83939;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s ,ease;
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+
+nav a{
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 4rem;
+    transition: 0.3s ,ease;
+    border-bottom: 3px solid transparent;
+}
+nav a:hover{
+    color: #d83939;
+    border-bottom: 3px solid #d83939;
+}
+section{
+    min-width: 100vh;
+    padding: 5rem 9% 5rem;
+}
+.home{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    background-color: black;
+}
+.home-img{
+    border-radius: 50%;
+}
+.home-img img{
+    position: relative;
+    margin-top: 50px;
+    width: 32vw;
+    height: 60vh;
+    border-radius: 56%;
+    box-shadow: 0 0 25px solid #d83939;
+    cursor:pointer;
+    transition: 0.2s linear;
+}
+.home-img img:hover{
+    font-size: 1.8rem;
+    font-weight:500;
+}
+.homeContent h1{
+    font-size: 4.5rem;
+    margin-bottom: 1rem;
+    font-weight: 600;    
+}
+span{
+    color: #d83939;
+}
+
+.homeContent h3{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+.social-Icons a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background-color: transparent;
+    border: 0.2rem solid #d83939;
+    font-size: 2rem;
+    border-radius: 50%;
+    margin: 3rem 1.5rem 3rem 0;
+    transition:0.3s ease;
+    color: white;
+}
+.social-Icons a:hover{
+    color: black;
+    transform: scale(1.3) translateY(-5px);
+    background-color: #d83939;
+    box-shadow:0 0 25px #d83939
+    ;
+}
